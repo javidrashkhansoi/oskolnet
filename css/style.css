@@ -3883,27 +3883,30 @@ button.swiper-pagination-bullet {
 
 .graphic__numbers span:nth-child(5) {
   top: 7.0621468927%;
-  left: 45.197740113%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .graphic__numbers span:nth-child(6) {
   top: 11.8644067797%;
-  left: 65.2542372881%;
+  right: 25.4237288136%;
 }
 
 .graphic__numbers span:nth-child(7) {
   top: 26.5536723164%;
-  left: 78.2485875706%;
+  right: 12.7118644068%;
 }
 
 .graphic__numbers span:nth-child(8) {
   top: 41.2429378531%;
-  left: 81.3559322034%;
+  right: 9.8870056497%;
 }
 
 .graphic__numbers span:nth-child(9) {
   top: 55.9322033898%;
-  left: 74.5762711864%;
+  right: 12.7118644068%;
 }
 
 .graphic__arrow {
