@@ -1855,6 +1855,7 @@ button.swiper-pagination-bullet {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  width: 100%;
   min-height: 35px;
   margin-bottom: 10px;
   padding: 5px;
@@ -2659,6 +2660,7 @@ button.swiper-pagination-bullet {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  width: 100%;
   min-height: 60px;
   padding: 5px;
   font-size: 24px;
@@ -3444,9 +3446,12 @@ button.swiper-pagination-bullet {
 }
 
 .pay-paymant__title {
+  display: block;
+  width: 100%;
   font-weight: 700;
   font-size: 24px;
   line-height: 145.8333333333%;
+  text-align: left;
   color: #6984f0;
   font-size: 24px;
 }
@@ -3793,7 +3798,7 @@ button.swiper-pagination-bullet {
   margin-bottom: 30px;
 }
 
-.speed__button a {
+.speed__button button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3813,7 +3818,7 @@ button.swiper-pagination-bullet {
   border-radius: 60px;
 }
 
-.speed__button a.active {
+.speed__button button.active {
   pointer-events: none;
 }
 
@@ -4420,7 +4425,7 @@ button.swiper-pagination-bullet {
     align-items: center;
   }
 
-  .speed__button a {
+  .speed__button button {
     min-width: 404px;
   }
 
@@ -6191,6 +6196,10 @@ button.swiper-pagination-bullet {
     align-self: stretch;
   }
 
+  .speed__button button {
+    width: 100%;
+  }
+
   .info-speed__item:not(:last-child) {
     margin-bottom: 20px;
   }
@@ -6996,13 +7005,13 @@ button.swiper-pagination-bullet {
     background-color: #263057;
   }
 
-  .speed__button a {
+  .speed__button button {
     -webkit-transition: background-color 0.25s;
     -o-transition: background-color 0.25s;
     transition: background-color 0.25s;
   }
 
-  .speed__button a:hover {
+  .speed__button button:hover {
     background-color: #263057;
   }
 }
